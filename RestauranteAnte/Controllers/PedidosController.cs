@@ -17,7 +17,7 @@ namespace RestauranteAnte.Controllers
         // GET: Pedidos
         public ActionResult Index()
         {
-            var pedidoes = db.Pedidoes.Include(p => p.Prato);
+            var pedidoes = db.Pedidoes.Include(p => p.Funcionario).Include(p => p.Produto);
             return View(pedidoes.ToList());
         }
 
@@ -39,7 +39,8 @@ namespace RestauranteAnte.Controllers
         // GET: Pedidos/Create
         public ActionResult Create()
         {
-            ViewBag.PratoID = new SelectList(db.Pratoes, "PratoID", "Nome");
+            ViewBag.FuncionarioID = new SelectList(db.Funcionarios, "ID", "Nome");
+            ViewBag.ProdutoID = new SelectList(db.Produtoes, "ID", "Nome");
             return View();
         }
 
@@ -48,7 +49,7 @@ namespace RestauranteAnte.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,PratoID,Data,Quantidade,vTotal")] Pedido pedido)
+        public ActionResult Create([Bind(Include = "ID,ProdutoID,Data,Quantidade,vTotal,FuncionarioID")] Pedido pedido)
         {
             if (ModelState.IsValid)
             {
@@ -57,7 +58,8 @@ namespace RestauranteAnte.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.PratoID = new SelectList(db.Pratoes, "PratoID", "Nome", pedido.PratoID);
+            ViewBag.FuncionarioID = new SelectList(db.Funcionarios, "ID", "Nome", pedido.FuncionarioID);
+            ViewBag.ProdutoID = new SelectList(db.Produtoes, "ID", "Nome", pedido.ProdutoID);
             return View(pedido);
         }
 
@@ -73,7 +75,8 @@ namespace RestauranteAnte.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.PratoID = new SelectList(db.Pratoes, "PratoID", "Nome", pedido.PratoID);
+            ViewBag.FuncionarioID = new SelectList(db.Funcionarios, "ID", "Nome", pedido.FuncionarioID);
+            ViewBag.ProdutoID = new SelectList(db.Produtoes, "ID", "Nome", pedido.ProdutoID);
             return View(pedido);
         }
 
@@ -82,7 +85,7 @@ namespace RestauranteAnte.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,PratoID,Data,Quantidade,vTotal")] Pedido pedido)
+        public ActionResult Edit([Bind(Include = "ID,ProdutoID,Data,Quantidade,vTotal,FuncionarioID")] Pedido pedido)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +93,8 @@ namespace RestauranteAnte.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.PratoID = new SelectList(db.Pratoes, "PratoID", "Nome", pedido.PratoID);
+            ViewBag.FuncionarioID = new SelectList(db.Funcionarios, "ID", "Nome", pedido.FuncionarioID);
+            ViewBag.ProdutoID = new SelectList(db.Produtoes, "ID", "Nome", pedido.ProdutoID);
             return View(pedido);
         }
 

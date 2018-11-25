@@ -1,0 +1,19 @@
+Pedidos
+	id
+	ProdutoID
+	Data
+	Quantidade
+	ValorTotal
+	Funcionario Responsavel Pela Venda/ID
+Produto
+	ID
+	Nome
+	QuantidadeEmEstoque
+
+Funcionario
+	ID
+	Nome
+	IDADE
+	RG
+	CPF
+	Endereco
