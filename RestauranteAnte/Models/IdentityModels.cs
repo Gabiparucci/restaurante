@@ -30,10 +30,12 @@ namespace RestauranteAnte.Models
             return new ApplicationDbContext();
         }
 
-        public System.Data.Entity.DbSet<RestauranteAnte.Models.Produto> Produtoes { get; set; }
+        
 
         public System.Data.Entity.DbSet<RestauranteAnte.Models.Pedido> Pedidoes { get; set; }
 
         public System.Data.Entity.DbSet<RestauranteAnte.Models.Funcionario> Funcionarios { get; set; }
+
+        public System.Data.Entity.DbSet<RestauranteAnte.Models.Produto> Produtoes { get; set; }
     }
 }

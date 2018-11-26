@@ -167,6 +167,12 @@ C:\Users\Aluno\Desktop\RestauranteAnte\RestauranteAnte\bin\Microsoft.Owin.Securi
 C:\Users\Aluno\Desktop\RestauranteAnte\RestauranteAnte\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Aluno\Desktop\RestauranteAnte\RestauranteAnte\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Aluno\Desktop\RestauranteAnte\RestauranteAnte\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.InitialCreate.resources
+C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Inicial.resources
+C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Produto.resources
+C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Funcionarios.resources
+C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Produto1.resources
+C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.csproj.GenerateResource.Cache
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\bin\ApplicationInsights.config
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\bin\roslyn\csc.exe
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -246,12 +252,7 @@ C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\bin\Microsoft.Owin.Se
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.InitialCreate.resources
-C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Inicial.resources
-C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.csproj.GenerateResource.Cache
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.dll
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.pdb
-C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Produto.resources
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.csprojResolveAssemblyReference.cache
-C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Funcionarios.resources
-C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Produto1.resources
+C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Produto2.resources
