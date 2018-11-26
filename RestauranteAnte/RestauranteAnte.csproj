@@ -218,6 +218,14 @@
     <Compile Include="Migrations\201811251839589_Produto.Designer.cs">
       <DependentUpon>201811251839589_Produto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811252226378_Funcionarios.cs" />
+    <Compile Include="Migrations\201811252226378_Funcionarios.Designer.cs">
+      <DependentUpon>201811252226378_Funcionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811260047113_Produto1.cs" />
+    <Compile Include="Migrations\201811260047113_Produto1.Designer.cs">
+      <DependentUpon>201811260047113_Produto1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Funcionario.cs" />
@@ -291,16 +299,16 @@
     <Content Include="Views\Pedidos\Details.cshtml" />
     <Content Include="Views\Pedidos\Edit.cshtml" />
     <Content Include="Views\Pedidos\Index.cshtml" />
-    <Content Include="Views\Produtos\Create.cshtml" />
-    <Content Include="Views\Produtos\Delete.cshtml" />
-    <Content Include="Views\Produtos\Details.cshtml" />
-    <Content Include="Views\Produtos\Edit.cshtml" />
-    <Content Include="Views\Produtos\Index.cshtml" />
     <Content Include="Views\Funcionarios\Create.cshtml" />
     <Content Include="Views\Funcionarios\Delete.cshtml" />
     <Content Include="Views\Funcionarios\Details.cshtml" />
     <Content Include="Views\Funcionarios\Edit.cshtml" />
     <Content Include="Views\Funcionarios\Index.cshtml" />
+    <Content Include="Views\Produtos\Create.cshtml" />
+    <Content Include="Views\Produtos\Delete.cshtml" />
+    <Content Include="Views\Produtos\Details.cshtml" />
+    <Content Include="Views\Produtos\Edit.cshtml" />
+    <Content Include="Views\Produtos\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -322,6 +330,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811251839589_Produto.resx">
       <DependentUpon>201811251839589_Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811252226378_Funcionarios.resx">
+      <DependentUpon>201811252226378_Funcionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811260047113_Produto1.resx">
+      <DependentUpon>201811260047113_Produto1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

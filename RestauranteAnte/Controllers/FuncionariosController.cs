@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using RestauranteAnte.Models;
+using System.Data.SqlClient;
 
 namespace RestauranteAnte.Controllers
 {
@@ -54,10 +55,10 @@ namespace RestauranteAnte.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
             return View(funcionario);
         }
 
+        
         // GET: Funcionarios/Edit/5
         public ActionResult Edit(int? id)
         {

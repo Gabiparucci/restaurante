@@ -5,43 +5,44 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="ERP de Gestão de Restaurante" content="">
+    <meta name="Paulo Sergio,Gabriela Parucci e Gustavo Collussi" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>ERP</title>
+
     @Styles.Render("~/Content/css")
-   
 
-    <!-- Bootstrap core CSS -->
-    
+
+       
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+   
     
 
 </head>
 
 <body>
+    <center>
+        <h1 class="site-heading text-center text-white d-none d-lg-block">
 
-    <h1 class="site-heading text-center text-white d-none d-lg-block">
-        <center>
             <span class="site-heading-upper text-primary mb-3">Restaurante</span>
             <span class="site-heading-lower">Prato Feito</span>
-        </center>
-    </h1>
 
+        </h1>
+    </center>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
         <div class="container">
             <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#"></a>
             <center>
                 <ul id="horizontal-list">
-                    <li><a id="fonte1" href="#">HOME          </a></li>
-                    <li><a id="fonte1" href="#">PEDIDOS          </a></li>
-                    <li><a id="fonte1"href="#">PRODUTOS          </a></li>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Pedidos", "Index", "Pedidos")</li>
+                    <li>@Html.ActionLink("Produtos", "Index", "Produtos")</li>
+                    <li>@Html.ActionLink("Funcionarios", "Index", "Funcionarios")</li>
                 </ul>
             </center>
             <div class="table" id="navbarResponsive">
@@ -59,14 +60,12 @@
             <p>&copy; @DateTime.Now.Year </p>
         </footer>
     </div>
-    
-
-
   
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    
+    
 </body>
 
 </html>

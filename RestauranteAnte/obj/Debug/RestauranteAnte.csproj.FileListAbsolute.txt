@@ -252,3 +252,6 @@ C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\Restaurante
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.dll
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.pdb
 C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Produto.resources
+C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.csprojResolveAssemblyReference.cache
+C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Funcionarios.resources
+C:\Users\Mariana\Documents\Git\restaurante\RestauranteAnte\obj\Debug\RestauranteAnte.Migrations.Produto1.resources
